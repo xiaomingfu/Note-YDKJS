@@ -51,9 +51,16 @@ a.toPrecision(1); // "4e+1" specifies how many significant digits
 ##### Small Decimal Values
 ` 0.1 + 0.2 === 0.3  // false`
 it is side effect of using binary floating-point nubmers
-
-
-
+`Number.EPSILON` is predefined with this tolerance value
+##### Safe Integer Ranges
+`Number.MAX_VALUE` Max positive number, `-MAX_VALUE` min negative number
+`Number.MIN_VALUE` Min positive number close to zero `-MIN_VALUE` max negative number
+`Number.MAX_SAFE_INTEGER` is `2^53 - 1`
+`Number.MIN_SAFE_INTEGER` is `-2^53 - 1`
+##### Testing for Integers
+`Number.isInteger(..)`
+`Number.isSafeInteger(..)`
+##### 32-bit(Signed) Integers
 
 
 
