@@ -101,7 +101,7 @@ By combining `writable: false` and `configurable:false`, can create constant as 
 **Freeze**
 `Object.freeze(..)` which means it takes an existing object and essentially calls `Object.seal(..)`, and marks all "data accessor" properties as `writable:false`. It is the highest level of immutability. 
 
-######`[[Get]]`
+###### `[[Get]]`
 There is internally defined `[[Get]]` operation for getting a value from a propery. If it cannot through any means come up with a value for the requested property, it returns `undefined`
 
 ###### `[[Put]]`
