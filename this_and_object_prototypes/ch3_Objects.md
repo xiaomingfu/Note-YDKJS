@@ -89,16 +89,16 @@ Change `configurable` to `false` is a **one-way action, and cannot be undone!**.
 
 ###### Immutability
 
-####### Object Constant
+ **Object Constant**
 By combining `writable: false` and `configurable:false`, can create constant as an object property.
 
-####### Prevent Extensions
+**Prevent Extensions**
 `Object.preventExtensions(..)` prevent an object from having new properties added to it.
 
-####### Seal
+**Seal**
 `Object.seal(..)` which means it takes an existing object and essentially calls `Object.preventExtensions(..)` and marks all its exitsing properties as `configurable:false`
 
-####### Freeze
+**Freeze**
 `Object.freeze(..)` which means it takes an existing object and essentially calls `Object.seal(..)`, and marks all "data accessor" properties as `writable:false`. It is the highest level of immutability. 
 
 ######`[[Get]]`
