@@ -7,16 +7,16 @@ ES6 add `class` keyword. But JavaScript does not have classes. JS provides the i
 ###### Class Mechanics
 In many class-oriented languages, the "standard library" provideds a "stack" data structure as a `Stack` class.
 
-####### Building
+ **Building**
 A class is a blue-print. The end result of "construction" is an object, called an "instance".
 
-####### Constructor
+**Constructor**
 Constructor is a special method of the class to construct an instance of classes. This method is to initialize any information the instance will need.
 
-####### Class Inheritance
+**Class Inheritance**
 In class-oriented languages, child class can inherit from parent class.
 
-####### Polymorphism ???
+**Polymorphism** ???
 Polymorphism(having different functions at multiple levels of an inheritance chain with the same name) may seem like it implies a referential relative link from child back to parent, but it is still a result of copy behavior.
 
 The keyword `super` which leans on the idea that a "super class" is the parent of the current class. 
